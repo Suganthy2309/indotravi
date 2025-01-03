@@ -14,8 +14,8 @@ import CardsSection from './components/Cards-Section/CardsSection';
 import LocationSection from './components/Location-Section/LocationSection';
 import BookingSection from './components/Booking-Section/BookingSection';
 import PackagesSection from './components/Packages-Section/PackagesSection';
-import BlogSection from './components/Blog-Section/BlogSection'; 
-
+import User from './components/user/User';
+import BlogSection from './components/Blog-Section/BlogSection';
 import Footer from './components/footer/Footer';
 
 
@@ -25,15 +25,14 @@ function App() {
 
   return (
     <Router>
-     {/* <Header/> */}
             <HomeSection />
             <CardsSection />
             <LocationSection />
             <BookingSection />
             <PackagesSection />
+            <User/>
             <BlogSection/>
             <Footer />
-      
     </Router>
   )
 }
