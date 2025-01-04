@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const UserReview = () => {
   return (
     <section className="user-review-section">

@@ -3,8 +3,10 @@ import React from "react";
 const BlogSection = () => {
   return (
     <section className="blog">
-      <h6 className="label">our blog</h6>
-      <h1 className="heading">our travel memories</h1>
+      <div className="blog-center">
+      <h6 className="label-heading">Our Blog</h6>
+      <h1 className="heading">Our travel memories</h1>
+      </div>
       <div className="container">
         <div className="box">
           <img src="https://c.pxhere.com/photos/bb/b6/adventure_conifers_creek_environment_evergreen_fir_trees_forest_hike-1574937.jpg!d" alt="Travel Trends" />
@@ -13,7 +15,6 @@ const BlogSection = () => {
             <h3>2025 Travel Trends - What You Need to Know</h3>
             <p>
             2023 taught us valuable life lessons. Plans don't always work out, flexibility is a key to life...
-
             </p>
           </div>
         </div>

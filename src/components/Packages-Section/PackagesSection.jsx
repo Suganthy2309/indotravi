@@ -5,8 +5,8 @@ const PackagesSection = () => {
     <section className="packages">
       <div className="responsive-text">
         <div className="heading-box">
-          <h6 className="label">tour packages</h6>
-          <h2 className="heading">our tourist destination</h2>
+          <h6 className="label-heading">Tour packages</h6>
+          <h2 className="heading">Our tourist destination</h2>
         </div>
         <div className="text-box">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>

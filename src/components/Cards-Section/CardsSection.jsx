@@ -2,7 +2,7 @@ import React from 'react';
 
 const CardsSection = () => {
   return (
-    <section className="achivment">
+    <div className="achivment">
       <div className="box">
         <h5>10M+</h5>
         <p>total customers</p>
@@ -19,7 +19,7 @@ const CardsSection = () => {
         <h5>5.0</h5>
         <p>average rating</p>
       </div>
-    </section>
+    </div>
   );
 };
 

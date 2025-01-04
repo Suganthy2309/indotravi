@@ -1,8 +1,6 @@
 import React from "react";
 import SearchFilter from "../searchfilter/SearchFilter";
 
-
-
 const BookingSection = () => {
 return (
 <section className="booking ">
@@ -12,21 +10,22 @@ return (
           backgroundSize: 'cover',
     backgroundPosition: 'center',
         }}>
-        
+
 
     <div className="booking-wrap main-search-wrapper">
       <SearchFilter />
 
-     <div> <h7 className="Booking-search-wraper">Embark on a journey to find your dream destination, where adventure and relaxation await.</h7></div>
+      <div>
+        <h7 className="Booking-search-wraper">Embark on a journey to find your dream destination, where adventure and
+          relaxation await.</h7>
+      </div>
 
-
-      
     </div>
 
   </div>
   <div className="process">
-    <h6 className="label">how it works</h6>
-    <h2 className="heading">one click for you</h2>
+    <h6 className="label-heading">How it works</h6>
+    <h2 className="heading">One click for you</h2>
 
     <div className="box">
       <span>
@@ -43,9 +42,9 @@ return (
       </span>
       <div className="text">
         <h4>book a ticket</h4>
-        <p>Ensure a smooth travel experience by booking tickets to your preferred destination via our platform.
-
-</p>
+        <p>
+          Ensure a smooth travel experience by booking tickets to your preferred destination via our platform.
+        </p>
       </div>
     </div>
     <div className="box">
@@ -56,7 +55,7 @@ return (
         <h4>make payment</h4>
         <p>We offer a variety of payment options to meet your preferences and ensure a hassle-free process.
 
-</p>
+        </p>
       </div>
     </div>
     <div className="box">
