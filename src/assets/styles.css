@@ -1293,6 +1293,10 @@ body {
     display: inline;
   }
 
+   .footer-links li{
+    font-size: 8px;
+   }
+
 }
 
 /* ...user section @media.................................. */
