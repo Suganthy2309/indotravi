@@ -1107,6 +1107,7 @@ body {
 }
 
 .nav-arrow {
+  margin-left:15px;
   font-size: 1.5rem;
   color: #333;
   background: none;
@@ -1263,7 +1264,7 @@ body {
   }
 
   .packages {
-    margin: 150px 0 0 0;
+    margin: 20px 0 0 0;
   }
 
   .responsive-text .text-box p {
