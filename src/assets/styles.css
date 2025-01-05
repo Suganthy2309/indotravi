@@ -216,10 +216,16 @@ body {
   margin-bottom: 20px;
 }
 
-.Booking-search-wraper h7 {
+.booking-search-wraper h6 {
   color: white;
   margin: 20px;
   font-size: 16px;
+  text-transform: initial;
+}
+
+.booking-search-wraper {
+  text-transform: initial;
+  margin: 10px;
 }
 
 .main-search-wrapper h1 {
@@ -489,7 +495,6 @@ body {
   display: flex;
   gap: 4rem;
   margin: 20px 0;
-  height: 700px;
 }
 
 .booking .image,
@@ -498,9 +503,11 @@ body {
 }
 
 .booking .image {
+  min-height: 600px;
   border-radius: 1.5rem;
   overflow: hidden;
   box-shadow: 0 8px 20px rgb(0 0 0 / 30%);
+  position: relative;
 }
 
 .booking .image img {
@@ -805,7 +812,7 @@ body {
 .footer {
   background-color: black;
   color: #ccc;
-  padding: 4rem 10rem;
+  
   font-family: Arial, sans-serif;
   display: flex;
   flex-wrap: wrap;
@@ -1006,19 +1013,13 @@ body {
 
 /*...................... User Review Section  starts here...........................*/
 .user-review-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2rem;
   margin: 20px 0;
-  font-family: Arial, sans-serif;
 }
 
 .review-container {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  width: 87%;
   gap: 2rem;
   padding: 0;
   border: 0;
@@ -1199,6 +1200,7 @@ body {
 
   .search-filter ul li {
     padding: .5rem;
+    border: 0 !important;
   }
 
   .search-filter ul li i:last-child {
@@ -1254,11 +1256,10 @@ body {
     display: grid;
   }
 
-  .main-search-wrapper {
-    font-size: 30px;
+  .booking-wrap.main-search-wrapper {
     letter-spacing: 0;
-    line-height: 30px;
-    margin: 100px 0;
+    position: absolute;
+    bottom: 0;
   }
 
   .packages {

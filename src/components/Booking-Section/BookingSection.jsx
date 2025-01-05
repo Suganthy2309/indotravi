@@ -16,8 +16,8 @@ return (
       <SearchFilter />
 
       <div>
-        <h7 className="Booking-search-wraper">Embark on a journey to find your dream destination, where adventure and
-          relaxation await.</h7>
+        <h6 className="booking-search-wraper">Embark on a journey to find your dream destination, where adventure and
+          relaxation await.</h6>
       </div>
 
     </div>
