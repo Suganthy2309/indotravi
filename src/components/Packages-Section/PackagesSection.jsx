@@ -9,7 +9,7 @@ const PackagesSection = () => {
           <h2 className="heading">Our tourist destination</h2>
         </div>
         <div className="text-box">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p>Our tourist destination offers an unrivalled blend of natural beauty and cultural richness. </p>
         </div>
       </div>
       <div className="images">

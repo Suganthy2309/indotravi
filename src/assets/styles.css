@@ -412,7 +412,7 @@ body {
 .responsive-text {
   display: flex;
   justify-content: space-between;
-  gap: 4rem;
+  gap: 10rem;
 }
 
 .responsive-text .text-box {
