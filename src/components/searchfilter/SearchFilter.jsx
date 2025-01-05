@@ -47,9 +47,9 @@ return(
             <button className="dropbtn"> <i className="fa-regular fa-credit-card"></i>budjet <i
                     className="fa-solid fa-chevron-down"></i></button>
             <div className="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+                <a href="#">$5000 - $7000</a>
+                <a href="#">$10000 - $12000</a>
+                <a href="#">$14000 - $17000</a>
             </div>
         </li>
 
@@ -60,9 +60,9 @@ return(
             </button>
 
             <div className="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+                <a href="#">Single Person</a>
+                <a href="#">Couple</a>
+                <a href="#"> more than 3</a>
             </div>
 
 

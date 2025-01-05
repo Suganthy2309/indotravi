@@ -15,8 +15,8 @@ return (
     <div className="booking-wrap main-search-wrapper">
       <SearchFilter />
 
-      <div>
-        <h7 className="Booking-search-wraper">Embark on a journey to find your dream destination, where adventure and
+      <div className="Booking-search-wraper">
+        <h7> Embark on a journey to find your dream destination, where adventure and
           relaxation await.</h7>
       </div>
 
