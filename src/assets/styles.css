@@ -224,6 +224,7 @@ body {
 }
 
 .booking-search-wraper {
+  
   text-transform: initial;
   margin: 10px;
 }
@@ -412,7 +413,7 @@ body {
 .responsive-text {
   display: flex;
   justify-content: space-between;
-  gap: 10rem;
+  gap: 4rem;
 }
 
 .responsive-text .text-box {
@@ -1247,7 +1248,7 @@ body {
     display: block;
   }
 
-  .search-filter button {}
+  
 
   .location {
     margin: 20px 0;
@@ -1320,6 +1321,18 @@ body {
     padding: 0;
     text-align: center;
   }
+
+  .booking{
+    flex-direction: column;
+  }
+
+  .booking-search-wraper {
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+
+  
 }
 
 @media (max-width: 768px) {

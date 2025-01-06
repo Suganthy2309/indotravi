@@ -17,7 +17,7 @@ return (
 
       <div>
         <h6 className="booking-search-wraper">Embark on a journey to find your dream destination, where adventure and
-          relaxation await.</h6>
+          relaxation await.creating unforgettable memories along the way </h6>
       </div>
 
     </div>

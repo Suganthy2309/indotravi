@@ -46,7 +46,7 @@ return (
         alt="" />
       <div className="overlay">
         <p>
-          Jogjakarta, Central Java
+          Jogjakarta, Central Java <br />
           Borobudur Temple Tour</p>
       </div>
     </div>
